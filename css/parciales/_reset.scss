@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --fuenteHeading: "PT Sans", sans-serif;
+    --fuenteParrafos: "Open Sans", sans-serif;
+    --primario: #784d3c; 
+    --blanco: #ffffff; 
+    --negro: #000000; 
+    --gris: #e1e1e1; 
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}       
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+}

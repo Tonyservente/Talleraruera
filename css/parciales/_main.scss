@@ -1,0 +1,114 @@
+@import "./responsives";
+@import "./variables";
+
+.blog {
+    .entrada {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+    }
+    .entrada {
+    border: none;
+    margin-bottom: 0;
+    padding: 2rem;
+    }
+    .boton {
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    }
+}
+.boton--primario {
+background-color: var(--negro);
+}
+.boton--primario:hover {
+color: #af5700;
+}
+.sidebar ul {
+list-style: none;
+}
+.widget-nosotros {
+padding: 1rem;
+margin-bottom: 2rem;
+}
+.subtitulo {
+text-align: center;
+}
+.entrada-home {
+padding: 1rem;
+margin: 1rem;
+}
+
+.home dos-columnas {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+column-gap: 2rem;
+}
+
+.home {
+    padding: 2rem;
+}
+.widget-trabajos {
+     padding: 3rem;
+}
+
+.trabajos {
+display: grid;
+grid-template-columns: repeat(1, 2fr);
+column-gap: 2rem;
+}
+.trabajos__imagen {
+    padding: 3rem;
+}
+.trabajos__informacion {
+padding: 3rem 0;
+border-bottom: 1px solid var(--gris);
+}
+
+/**FORMULARIO DE CONTACTO **/
+
+.formulario {
+    width: 700px;
+    margin: 20px auto 20px auto;
+    border: solid 1px;
+}
+
+.formulario fieldset {
+    padding: 10px;
+}
+
+.formulario form div label {
+    margin: 10px 0 10px 0;
+}
+
+.formulario form div label, textarea {
+    width: 100%;
+    display: inline-block;
+}
+
+.formulario form div input {
+    width: 100%;
+/*    border: 1px solid red;*/
+    padding: 7px;
+}
+
+.formulario form div input[type=submit] {
+    width: 100px;
+    color: #FFF;
+    background: var(--negro);
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.formulario form div input:hover[type=submit] {
+    
+    color: #af5700;
+    
+}
+
+

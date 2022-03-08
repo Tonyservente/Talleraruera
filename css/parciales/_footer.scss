@@ -1,0 +1,98 @@
+ @import "./variables";
+footer {
+    background: var(--negro);
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    color: var(--blanco);
+}
+
+footer div ul h2 {
+    margin-bottom: 10px;
+    padding: 20px 0 20px 0;
+}
+
+footer div ul li {
+    list-style: none;
+    line-height: 20px;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 13px;
+}
+
+.redes li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+}
+
+.redes:hover {
+    background-color:#e60073;
+    box-shadow: 0 0 20px #e60073;
+}
+.redes:hover:nth-child(2){
+    background-color: #1877f2;
+    box-shadow: 0 0 20px #1877f2;
+}
+.redes:hover:nth-child(3) {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366;
+}
+.redes:hover:nth-child(4) {
+    background-color: #1da1f2;
+    box-shadow: 0 0 20px #1da1f2;
+}
+
+.redes i{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7rem;
+}
+svg circle {
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+.redes:hover circle {
+    stroke-dasharray: 220;
+}
+
+.border {
+    border-bottom: 2px solid #FFF;
+    width: 100%;
+    display: inline-block;
+}
+
+.footer-class {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000000;
+    width: 100%;
+    margin: 0px;
+}
+
+.card-footer {
+    display: inline-block;
+}
